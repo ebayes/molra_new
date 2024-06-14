@@ -1,0 +1,44 @@
+[
+    {
+        "taxa": "flower",
+        "bbox": [
+            1679,
+            2360,
+            1791,
+            2479
+        ],
+        "confidence": [],
+        "labels": []
+    },
+    {
+        "taxa": "fern",
+        "bbox": [
+            1405,
+            1263,
+            2117,
+            2085
+        ],
+        "confidence": [
+            0.39247432351112366,
+            0.2616451680660248,
+            0.13649600744247437
+        ],
+        "labels": [
+            [
+                "Asplenium serratum",
+                "Asplenium",
+                "Aspleniaceae"
+            ],
+            [
+                "Campyloneurum angustifolium",
+                "Campyloneurum",
+                "Polypodiaceae"
+            ],
+            [
+                "Microgramma percussa",
+                "Microgramma",
+                "Polypodiaceae"
+            ]
+        ]
+    }
+]
