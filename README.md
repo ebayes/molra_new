@@ -16,13 +16,7 @@ The pipeline processes images, detects bounding boxes around objects of interest
 
 ## Requirements
 - Python 3.7+
-- Required Python packages (install via `requirements.txt`):
-  - requests
-  - Pillow
-  - torch
-  - transformers
-  - numpy
-  - python-dotenv
+- Required Python packages (install via `requirements.txt`)
 
 ## Setup
 1. Clone the repository:
@@ -32,10 +26,10 @@ The pipeline processes images, detects bounding boxes around objects of interest
 
 2. Install Grounding DINO and repo dependencies:
    ```sh
-  cd molra/detection/dino
-  pip install -e .
-  cd ../../..
-  pip install -r requirements.txt
+   cd molra/detection/dino
+   pip install -e .
+   cd ../../..
+   pip install -r requirements.txt
    ```
 
 3. Set up environment variables:
@@ -52,9 +46,9 @@ The pipeline processes images, detects bounding boxes around objects of interest
 
 ### Running the Pipeline
 To run the pipeline, execute the `run.py` script:
-```sh
-python run.py
-```
+   ```sh
+   python run.py
+   ```
 
 ### Configuration
 You can configure the pipeline by modifying the following parameters in `run.py`:
